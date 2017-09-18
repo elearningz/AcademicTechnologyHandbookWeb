@@ -4,7 +4,7 @@
 entries:
 - title: The Handbook
   product: The Handbook
-  version: 1.0
+  version:
   folders:
 
   - title:
@@ -24,27 +24,31 @@ entries:
     output: web, pdf
     folderitems:
     - title: Welcome
-      url: /p1_landing_page.html
-      output: web
+      url: /introduction.html
+      output: web, pdf
 
   - title: Course Maintenance
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Course Lifecycle
+      url: /course_lifecycle.html
       output: web, pdf
 
-    - title: Sample 5
-      url: /p1_sample5.html
+    - title: Collaborate Lifecycle
+      url: /collaborate_lifecycle.html
       output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
+    - title: Course Cleanup
+      url: /course_cleanup.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
+    - title: Course Copy
+      url: /course_copy.html
+      output: web, pdf
+
+    - title: Course Archive/Export
+      url: /course_export.html
       output: web, pdf
 
   - title: Course Management
@@ -65,7 +69,7 @@ entries:
 
   - title: Appendix
     output: web, pdf
-    
+
     folderitems:
     - title: Sample 4
       url: /p1_sample4.html

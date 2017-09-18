@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This is just a sample topic...">
-<meta name="keywords" content=" sample">
-<title>Sample 3 Topic (Product 1) | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
+<meta name="description" content="">
+<meta name="keywords" content=" handbook">
+<title>Education Technology Handbook - An Introduction | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -132,7 +132,7 @@
                         
                         
                         
-                        <li><a href="p1_landing_page.html">The Handbook</a></li>
+                        <li class="dropdownActive"><a href="introduction.html">The Handbook</a></li>
                         
                         
                     </ul>
@@ -144,14 +144,15 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Hanbook Question feedback&body=I have some feedback about the Sample 3 Topic (Product 1) page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Hanbook Question feedback&body=I have some feedback about the Education Technology Handbook - An Introduction page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
 		
-                <!--comment out this block if you want to hide search-->
+    <!-- Hiding Search
+
                 <li>
-                    <!--start search-->
+
                     <div id="search-demo-container">
                         <input type="text" id="search-input" placeholder="search...">
                         <ul id="results-container"></ul>
@@ -162,14 +163,15 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Sample 3 Topic (Product 1)">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Education Technology Handbook - An Introduction">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
                     })
                     </script>
-                    <!--end search-->
+
                 </li>
+      -->
             </ul>
         </div>
         </div>
@@ -188,7 +190,7 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">The Handbook 1.0</li>
+  <li class="sidebarTitle">The Handbook </li>
   
   
   
@@ -200,7 +202,7 @@
           
           
           
-          <li><a href="p1_landing_page.html">Welcome</a></li>
+          <li class="active"><a href="introduction.html">Welcome</a></li>
           
           
           
@@ -216,28 +218,35 @@
           
           
           
-          <li><a href="p1_sample4.html">Sample 4</a></li>
+          <li><a href="course_lifecycle.html">Course Lifecycle</a></li>
           
           
           
           
           
           
-          <li><a href="p1_sample5.html">Sample 5</a></li>
+          <li><a href="collaborate_lifecycle.html">Collaborate Lifecycle</a></li>
           
           
           
           
           
           
-          <li><a href="p1_sample6.html">Sample 6</a></li>
+          <li><a href="course_cleanup.html">Course Cleanup</a></li>
           
           
           
           
           
           
-          <li><a href="p1_sample7.html">Sample 7</a></li>
+          <li><a href="course_copy.html">Course Copy</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_export.html">Course Archive/Export</a></li>
           
           
           
@@ -312,7 +321,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Sample 3 Topic (Product 1)</h1>
+   <h1 class="post-title-main">Education Technology Handbook - An Introduction</h1>
 </div>
 
 
@@ -320,51 +329,36 @@
 <div class="post-content">
 
    
-    <div class="summary">This is just a sample topic...</div>
-   
-
-    
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
 
     
 
 
     
 
-  <h2 id="sample-content">Sample Content</h2>
+  <p>Welcome to the educational technology handbook prepared by the Faculty of Nursing’s academic technology team. The purpose of this handbook is to provide you with reference information and resources to support the integration of the available education technology into your course. The information and resources are a mix of technical tutorials, templates, and advice about teaching with technology.</p>
 
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>The handbook consists of three sections and an appendix organized into thematic areas:</p>
 
-<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<p>The first section focuses on <strong>Course Maintence</strong> covering the tasks and technical details relating to setting up your course to archiving it when it is complete.</p>
 
-<h2 id="more-sample-content">More sample content</h2>
+<p>The second section focuses on <strong>Course Management</strong> covering the tasks and technical details of using educational technology while your course is ongoing.</p>
 
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.</p>
+<p>The third section focuses on <strong>Additional Technologies</strong> not mentioned in the first two sections (each of which is focused more on the Learning Managment System). The information in this section is arranged by technology (software or hardware) and has a focus on integrating the technology with your course.</p>
 
-<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+<p>The final section is an <strong>Appendix</strong> containing templates and resources for reference as well as practical use. It contains things such as course checklists, email templates, announcement templates, and student handouts.</p>
 
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>You can work through this handbook using the navigation that appears on the left (or at the top if on mobile) of the page.</p>
 
+<p>We try to incorporate updates regularly so we recommend keeping an eye on the repository where we save the files <a href="https://github.com/elearningz/AcademicTechnologyHandbookWeb/commits/master">updates made to the handbook</a> to see if you have the latest information.</p>
+
+<p>This handbook is also meant to be a collaborative exchange with the faculty so if you have any suggestions or would like to highlight something you’ve done as a way to promote best practices with integrating technology into your teaching please get in touch using the Feedback button at the top of the page or by email to us directly.</p>
+
+<p>Sincerely,</p>
+
+<p>Neal and Allison</p>
+
+<p>neal.macinnes@utoronto.ca <br />
+ali.lee@utoronto.ca</p>
 
 
     <div class="tags">
@@ -382,7 +376,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 Lawrence S. Bloomberg Faculty of Nursing - University of Toronto. All rights reserved. <br />
- Site last generated: Sep 15, 2017 <br />
+ Site last generated: Sep 18, 2017 <br />
 <p><img src="images/LSBFONBlueOnTransparent.png" alt="Company logo"/></p>
                 </div>
             </div>
