@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This page explains webinar functionality using Blackboard Collaborate and can act as a checklist of things to do to get started.">
+<meta name="keywords" content=" course, webinars, checklist, collaborate">
+<title>Webinar Information and Checklist | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Academic Technology Handbook</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="mydoc_introduction.html">Introductory Video</a></li>
+                        
+                        
+                        
+                        <li><a href="introduction.html">The Handbook</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Hanbook Question feedback&body=I have some feedback about the Webinar Information and Checklist page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+    <!-- Hiding Search
+
+                <li>
+
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Webinar Information and Checklist">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+
+                </li>
+      -->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">The Handbook </li>
+  
+  
+  
+      
+  
+  <li>
+      <a href="#">Introduction</a>
+      <ul>
+          
+          
+          
+          <li><a href="introduction.html">Welcome</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Maintenance</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_lifecycle.html">Course Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="collaborate_lifecycle.html">Collaborate Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_cleanup.html">Course Cleanup</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_copy.html">Course Copy</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_export.html">Course Archive/Export</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Management</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_checklist.html">Course Checklist</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="tests_surveys.html">Tests & Surveys</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="tests_import_export.html">Test Import/Export</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="grade_center.html">The Grade Center</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="discussion_board.html">Discussion Boards</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="blogs.html">Blogs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="wikis.html">Wikis</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="add_ta.html">Adding TAs</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Additional Technologies</a>
+      <ul>
+          
+          
+          
+          <li class="active"><a href="webinar_info.html">Webinar information</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mymedia.html">MyMedia</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Appendix</a>
+      <ul>
+          
+          
+          
+          <li><a href="guest_speaker_info.html">Guest Speaker Information</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="training_plan.html">Training Plan</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="key_contacts.html">Support Contacts</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Webinar Information and Checklist</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This page explains webinar functionality using Blackboard Collaborate and can act as a checklist of things to do to get started.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <p>Webinars can be delivered using the Blackboard Collaborate Tool accessible from your Blackboard Course. This tool is designed to provide synchronous video, audio, and slide sharing to a group of students. In addition, the webinar is able to be recorded to allow for asynchronous viewing and archiving in your course.</p>
+
+<h2 id="before-the-webinar---a-checklist-of-things-to-consider">Before the Webinar - A Checklist of Things To Consider</h2>
+
+<p>☐   Schedule Webinar in blackboard, if you don’t know how, contact Neal/Allison</p>
+
+<p>☐  Book webinar room (if needed)</p>
+
+<p>☐   Familiarize yourself with Blackboard Collaborate. If you don’t know the software, contact Neal/Allison for assistance</p>
+
+<h3 id="when-setting-up-your-webinar">When Setting up your Webinar</h3>
+
+<h4 id="if-presenter-has-a-utorid-br">If presenter has a UTORid <br /></h4>
+<p>      ☐  add speaker to course with UTORid and make speaker a moderator in the webinar</p>
+
+<p>      ☐  if speaker is new to bb collaborate, ensure Neal/Allison set up time to meet with speaker to discuss webinar software &amp; download/install BB collaberate launcher</p>
+
+<h4 id="if-presenter-does-not-have-a-utorid-br">If presenter does not have a UTORid <br /></h4>
+<p>      ☐  ensure Neal/Allison set up time to meet with speaker to show webinar software, download/install launcher</p>
+
+<p>      ☐  ensure you know how to make speaker with UTORId a moderator after signing in with guest link</p>
+
+<h4 id="considerations">Considerations</h4>
+
+<p>☐  Ensure the appropriate people (other instructors etc.) have moderator access if needed</p>
+
+<p>☐  Ensure speaker is aware the only <strong>.ppt</strong> or <strong>.pptx</strong> files can be used in BB collaborate</p>
+
+<p>☐  When uploading the presentation, ensure the PowerPoint is closed. Note uploading take a bit of time, be patient</p>
+
+<p>☐  Ensure speaker is aware videos in presentations are problematic. Please discuss with Neal or Allison</p>
+
+<p>☐  Ensure you’re aware how to make the presenter a moderator (if needed)</p>
+
+<h2 id="during-the-webinar">During the Webinar</h2>
+
+<p>☐  Sign in early. Webinar defaults to open 15 minutes before the start of the webinar, but often is set to open 30 minute before.</p>
+
+<p>☐  Check that your mic and webcam is working by clicking on the Talk and Video buttons.</p>
+
+<p>☐  Upload the speakers PowerPoint presentation</p>
+
+<p>☐  Before starting remember to click Talk, Video and Record</p>
+
+<hr />
+
+<h2 id="how-to-set-up-the-webinar">How to Set up the Webinar</h2>
+
+<p>Go to your course and click on Webinar, click on Schedule a Session. This will open a window for you to input the details.</p>
+
+<p>Enter webinar name then enter the date and time for both the start and finish of the session. Choose how early you want the webinar to open before the start (default is 15 minutes).</p>
+
+<p>Choose Course (will only be available to your section or Shared with other sections)</p>
+
+<p><strong>If shared</strong>, choose the Shared radio button
+	In the box that appears, find the other sections you want to share in the webinar and add to the 	box.</p>
+
+<p><strong>If not shared</strong>, leave the default.</p>
+
+<p>Generally, leave the rest of the options as default, but if you have any questions, ask Neal / Allison</p>
+
+<p>Click on the Add Moderator to add anyone in the course* as a moderator to the webinar. <br /></p>
+
+<p>*If the person is not currently in the course, they should be added using UT Manage Users before trying to add them to the webinar</p>
+
+<p>Click SAVE to save the webinar settings.</p>
+
+<h2 id="beginning-your-webinar">Beginning your Webinar</h2>
+
+<p>To run a webinar, the Blackboard Collaborate Launcher must be downloaded and installed. After installing the launcher, click on the webinar name when the webinar is open.  The webinar is available when this symbol <img class="inline" src="images/Webinar_Info/collab.jpg" alt="Collaborate Available Icon" />
+ appears beside the webinar name. Then click on the ‘Join Room’ button and a file called <em>meeting.collab</em> with download. If it doesn’t open automatically, open this file to start the webinar.</p>
+
+<p>Speakers with a valid and active UTORid should be added to the course by the instructor and set up with moderator privileges in the webinar settings before the start of the session.</p>
+
+<p>If the speaker has no valid UTORid, they should sign into the webinar using the guest URL and then the moderator in the course can make the speaker a moderator to run the webinar.</p>
+
+<p>Check your microphone by clicking on the ‘Talk’ button.</p>
+<figure><img class="docimage" src="images/Webinar_Info/talk_button.jpg" alt="Webinar Talk Button" /><figcaption>Talk Button in the Webinar Interface</figcaption></figure>
+
+<p>Check your video (if needed) by clicking on the ‘Video’ button.</p>
+<figure><img class="docimage" src="images/Webinar_Info/video_button.jpg" alt="Webinar Video Button" /><figcaption>Video Button in the Webinar Interface</figcaption></figure>
+
+<p>When ready to start the webinar, turn click on the ‘Talk’ button, then the ‘Video’ button and finally click on the ‘Record’ button (top right)</p>
+<figure><img class="docimage" src="images/Webinar_Info/record_button.jpg" alt="Webinar Record Button" /><figcaption>Record Button in the Webinar Interface</figcaption></figure>
+
+<h3 id="slides">Slides</h3>
+
+<p>Presentations must be PowerPoint files. PDF files will not upload. Please ensure that the PowerPoint program is CLOSED before you upload your presentation in the collaboration software.</p>
+
+<p>PowerPoint animations will not play in Blackboard Collaborate. The software essentially takes an image of the PowerPoint slides when uploading them so no animations will work. The images and everything else will be static only.</p>
+
+<p>Videos will not stream in the PowerPoint presentation.</p>
+
+<p>It is possible to play video during a presentation, however it must be played separately from the presentation and cannot be streamed. People watching remotely should be given a URL (it’s possible to do this via the webinar chat) so that can play the video at the same time as it is being played ‘live’, but will be separate from webinar and not seen by webinar users through the webinar software.</p>
+
+<h3 id="uploading-powerpoint-files">Uploading Powerpoint Files</h3>
+
+<p>After signing in as a moderator, on the top right there is a ‘Load Content’ button.</p>
+
+<figure><img class="docimage" src="images/Webinar_Info/load_button.jpg" alt="Webinar Load Button" /><figcaption>Load Content Button in the Webinar Interface</figcaption></figure>
+
+<p>Ensure your PowerPoint software is closed. Click the ‘Load Content’ button, choose your PowerPoint slides and choose ‘open’. The program will then open, convert and upload the slides to the webinar software. Please be patient as this can take a few minutes.</p>
+
+<p>Don’t forget to click on the ‘Record’ button to record the session before you begin.</p>
+
+<p>To move from slide to slide during your presentation, click on the arrow buttons.</p>
+
+<figure><img class="docimage" src="images/Webinar_Info/nav_buttons.jpg" alt="Navigation Buttons" /><figcaption>Slide Navigation Buttons in the Webinar Interface</figcaption></figure>
+
+<p>If you want to jump to a slide, click on the down arrow beside the name of your first slide and choose from the listing.</p>
+
+<figure><img class="docimage" src="images/Webinar_Info/jump_slides.jpg" alt="Jump To Dropdown Menu" /><figcaption>'Jump To' Naviagtion Dropdown Menu in the Webinar Interface</figcaption></figure>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 Lawrence S. Bloomberg Faculty of Nursing - University of Toronto. All rights reserved. <br />
+ Site last generated: Sep 19, 2017 <br />
+<p><img src="images/LSBFONBlueOnTransparent.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>

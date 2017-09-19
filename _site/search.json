@@ -4,11 +4,44 @@
 
 
 {
+"title": "Adding TAs or Other Roles To Your Course",
+"tags": "",
+"keywords": "course, TA, roles",
+"url": "add_ta.html",
+"summary": "This page explains blackboard roles and how to add teaching support staff like TAs to your course."
+}
+,
+
+
+
+{
+"title": "Blogs",
+"tags": "",
+"keywords": "course, discussions, blogs, blogging",
+"url": "blogs.html",
+"summary": "This page points to resources on using blogs in your course."
+}
+,
+
+
+
+{
 "title": "Blackboard Collaborate Lifecycle and Back-up",
 "tags": "",
 "keywords": "collaborate, webinar, archive",
 "url": "collaborate_lifecycle.html",
 "summary": "This page contains a breakdown of the key points in the lifecycle of a Blackboard Collaborate recording and how you can backup your recorded webinars."
+}
+,
+
+
+
+{
+"title": "Portal Course Checklist",
+"tags": "",
+"keywords": "course, checklist",
+"url": "course_checklist.html",
+"summary": "This is a Course Checklist for actions to consider during the setup and management of your course."
 }
 ,
 
@@ -58,6 +91,39 @@
 
 
 
+{
+"title": "Discussion Boards",
+"tags": "",
+"keywords": "course, discussions, discussion-board",
+"url": "discussion_board.html",
+"summary": "This page points to resources on using the discussion boards in your course."
+}
+,
+
+
+
+
+
+{
+"title": "The Grade Center",
+"tags": "",
+"keywords": "course, grading, grade-center",
+"url": "grade_center.html",
+"summary": "This page details key steps and tips for using the grade center to assess student work and provide feedback."
+}
+,
+
+
+
+{
+"title": "Guest Speaker (Email Request Template)",
+"tags": "",
+"keywords": "course, email, template",
+"url": "guest_speaker_info.html",
+"summary": "This page contains an email template with key questions when arranging a guest speaker."
+}
+,
+
 
 
 {
@@ -76,6 +142,17 @@
 "tags": "",
 "keywords": "handbook",
 "url": "introduction.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Support Contact Information",
+"tags": "",
+"keywords": "course, contacts, support",
+"url": "key_contacts.html",
 "summary": ""
 }
 ,
@@ -688,22 +765,61 @@
 
 
 {
-"title": "Sample 6 Topic (Product 1)",
+"title": "MyMedia &amp; Techsmith Relay",
 "tags": "",
-"keywords": "sample",
-"url": "p1_sample6.html",
-"summary": "This is just a sample topic..."
+"keywords": "course, MyMedia, video, streaming",
+"url": "mymedia.html",
+"summary": "This page details the process of creating streaming video and storing it on MyMedia"
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "Test Imports &amp; Exports",
+"tags": "",
+"keywords": "course, tests, surveys",
+"url": "tests_import_export.html",
+"summary": "This page details the steps for importing and exporting tests into your courses."
 }
 ,
 
 
 
 {
-"title": "Sample 7 Topic (Product 1)",
+"title": "Creating Tests &amp; Surveys",
 "tags": "",
-"keywords": "sample",
-"url": "p1_sample7.html",
-"summary": "This is just a sample topic..."
+"keywords": "course, tests, surveys",
+"url": "tests_surveys.html",
+"summary": "This page points to documentation for creating tests and surveys in your course."
 }
 ,
 
@@ -717,31 +833,36 @@
 
 
 
+{
+"title": "Training Plan",
+"tags": "",
+"keywords": "course, training",
+"url": "training_plan.html",
+"summary": "This page contains the typical training plan of a 1:1 or group session for using blackboard in your course."
+}
+,
 
 
 
+{
+"title": "Webinar Information and Checklist",
+"tags": "",
+"keywords": "course, webinars, checklist, collaborate",
+"url": "webinar_info.html",
+"summary": "This page explains webinar functionality using Blackboard Collaborate and can act as a checklist of things to do to get started."
+}
+,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+"title": "Wikis",
+"tags": "",
+"keywords": "course, communication, wikis, wiki",
+"url": "wikis.html",
+"summary": "This page points to resources on using wikis in your course."
+}
+,
 
 
 

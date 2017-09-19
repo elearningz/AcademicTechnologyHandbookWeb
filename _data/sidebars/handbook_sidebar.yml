@@ -55,23 +55,62 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Course Checklist
+      url: /course_checklist.html
+      output: web, pdf
+
+    - title: Tests & Surveys
+      url: /tests_surveys.html
+      output: web, pdf
+
+    - title: Test Import/Export
+      url: /tests_import_export.html
+      output: web, pdf
+
+    - title: The Grade Center
+      url: /grade_center.html
+      output: web, pdf
+
+    - title: Discussion Boards
+      url: /discussion_board.html
+      output: web, pdf
+
+    - title: Blogs
+      url: /blogs.html
+      output: web, pdf
+
+    - title: Wikis
+      url: /wikis.html
+      output: web, pdf
+
+    - title: Adding TAs
+      url: /add_ta.html
       output: web, pdf
 
   - title: Additional Technologies
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Webinar information
+      url: /webinar_info.html
+      output: web, pdf
+
+    - title: MyMedia
+      url: /mymedia.html
       output: web, pdf
 
   - title: Appendix
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Guest Speaker Information
+      url: /guest_speaker_info.html
       output: web, pdf
-  output: web, pdf
+
+    - title: Training Plan
+      url: /training_plan.html
+      output: web, pdf
+
+    - title: Support Contacts
+      url: /key_contacts.html
+      output: web, pdf

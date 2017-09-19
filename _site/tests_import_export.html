@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This page details the steps for importing and exporting tests into your courses.">
+<meta name="keywords" content=" course, tests, surveys">
+<title>Test Imports & Exports | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Academic Technology Handbook</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="mydoc_introduction.html">Introductory Video</a></li>
+                        
+                        
+                        
+                        <li><a href="introduction.html">The Handbook</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Hanbook Question feedback&body=I have some feedback about the Test Imports & Exports page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+    <!-- Hiding Search
+
+                <li>
+
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Test Imports & Exports">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+
+                </li>
+      -->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">The Handbook </li>
+  
+  
+  
+      
+  
+  <li>
+      <a href="#">Introduction</a>
+      <ul>
+          
+          
+          
+          <li><a href="introduction.html">Welcome</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Maintenance</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_lifecycle.html">Course Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="collaborate_lifecycle.html">Collaborate Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_cleanup.html">Course Cleanup</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_copy.html">Course Copy</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_export.html">Course Archive/Export</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Management</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_checklist.html">Course Checklist</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="tests_surveys.html">Tests & Surveys</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a href="tests_import_export.html">Test Import/Export</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="grade_center.html">The Grade Center</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="discussion_board.html">Discussion Boards</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="blogs.html">Blogs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="wikis.html">Wikis</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="add_ta.html">Adding TAs</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Additional Technologies</a>
+      <ul>
+          
+          
+          
+          <li><a href="webinar_info.html">Webinar information</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mymedia.html">MyMedia</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Appendix</a>
+      <ul>
+          
+          
+          
+          <li><a href="guest_speaker_info.html">Guest Speaker Information</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="training_plan.html">Training Plan</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="key_contacts.html">Support Contacts</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Test Imports & Exports</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This page details the steps for importing and exporting tests into your courses.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <p>Instructors can build their own test questions and assign specific point values to each question. When a student completes a test, it is submitted for grading and the results are recorded in the Grade Center. Tests can be added to any content area within a course. Instructors can export tests from their current or previous courses and import tests into a new course.</p>
+
+<h2 id="export-a-test">Export a Test</h2>
+<ol>
+  <li>Log into your course in Blackboard and go to the Control Panel</li>
+  <li>Click on Course Tools and select Tests, Surveys and Pools</li>
+  <li>Click on the Tests link and then hover your mouse over the test you’d like to export and click on the Chevron beside the test name</li>
+  <li>Choose either Export to Local Computer (the download will begin automatically) or</li>
+  <li>Choose Export to Content Collection to save it in your Blackboard content collection.</li>
+</ol>
+
+<h2 id="import-a-test">Import a Test</h2>
+<ol>
+  <li>Log into your course in Blackboard and go to the Control Panel</li>
+  <li>Click on Course Tools and select Tests, Surveys and Pools</li>
+  <li>Click on the Tests link and then click on Import Test</li>
+  <li>Find your exported test.
+    <ul>
+      <li>If you exported test is stored on your computer, click on Browse My Computer and navigate to the file</li>
+      <li>If your exported test is in your content collection, click the Browse Content Collection and navigate to the file.</li>
+    </ul>
+  </li>
+  <li>Then click Submit</li>
+</ol>
+
+<h2 id="back-up-your-tests">Back-up Your Tests</h2>
+
+<p>It is good practise to back-up your Tests. You can easily export your test/exam from Blackboard and store it on your computer and/or back-up storage device.</p>
+
+<p>To export an test:</p>
+
+<ol>
+  <li>Go to the Control Panel. Click Course Tools then select Tests, Surveys and Pools.</li>
+  <li>Click the Tests link.</li>
+  <li>Click the contextual menu button next to the test you would like to export.
+To save your test file to:
+    <ul>
+      <li>A local computer: click Export to Local Computer, then specify a save location;</li>
+      <li>Your Content collection: click Export to Content Collection, specify a save location.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>It is <em>strongly</em> recommended that you do this at the end of every term. This will reduce the number of duplicate tests carried from course copy to course copy.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 Lawrence S. Bloomberg Faculty of Nursing - University of Toronto. All rights reserved. <br />
+ Site last generated: Sep 19, 2017 <br />
+<p><img src="images/LSBFONBlueOnTransparent.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>

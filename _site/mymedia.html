@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This page details the process of creating streaming video and storing it on MyMedia">
+<meta name="keywords" content=" course, MyMedia, video, streaming">
+<title>MyMedia & Techsmith Relay | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Academic Technology Handbook</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="mydoc_introduction.html">Introductory Video</a></li>
+                        
+                        
+                        
+                        <li><a href="introduction.html">The Handbook</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Hanbook Question feedback&body=I have some feedback about the MyMedia & Techsmith Relay page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+    <!-- Hiding Search
+
+                <li>
+
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="MyMedia & Techsmith Relay">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+
+                </li>
+      -->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">The Handbook </li>
+  
+  
+  
+      
+  
+  <li>
+      <a href="#">Introduction</a>
+      <ul>
+          
+          
+          
+          <li><a href="introduction.html">Welcome</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Maintenance</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_lifecycle.html">Course Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="collaborate_lifecycle.html">Collaborate Lifecycle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_cleanup.html">Course Cleanup</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_copy.html">Course Copy</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="course_export.html">Course Archive/Export</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Course Management</a>
+      <ul>
+          
+          
+          
+          <li><a href="course_checklist.html">Course Checklist</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="tests_surveys.html">Tests & Surveys</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="tests_import_export.html">Test Import/Export</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="grade_center.html">The Grade Center</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="discussion_board.html">Discussion Boards</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="blogs.html">Blogs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="wikis.html">Wikis</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="add_ta.html">Adding TAs</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Additional Technologies</a>
+      <ul>
+          
+          
+          
+          <li><a href="webinar_info.html">Webinar information</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a href="mymedia.html">MyMedia</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Appendix</a>
+      <ul>
+          
+          
+          
+          <li><a href="guest_speaker_info.html">Guest Speaker Information</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="training_plan.html">Training Plan</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="key_contacts.html">Support Contacts</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">MyMedia & Techsmith Relay</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This page details the process of creating streaming video and storing it on MyMedia</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <p>MyMedia is a U of T resource that can be used as a streaming media platform and archival storage for video and audio content. All media files uploaded here are re-encoded into standard format for playback over the web. You can think about it a little bit like an internally managed YouTube.</p>
+
+<p>Faculty have unlimited storage space on MyMedia so it is a great place to store recorded presentations or other teaching material for ongoing use. In addition students have access to upload up to 30 videos so it is a good opportunity to use it to create multimedia assignments.</p>
+
+<p>There are two ways you can get your multimedia content up on MyMedia:</p>
+
+<ol>
+  <li>The video or audio can be recorded and edited on any device using any software and then uploaded through the mymedia.utoronto.ca site.</li>
+  <li>You can use TechSmith Relay or Camtasia to record and upload files to your MyMedia from directly within the software.</li>
+</ol>
+
+<h2 id="create-a-mymedia-account">Create a MyMedia account</h2>
+<ol>
+  <li>This requires a valid UTORid.<br /></li>
+  <li>Go to <a href="https://mymedia.library.utoronto.ca">https://mymedia.library.utoronto.ca</a><br /></li>
+  <li>Click on the <strong>Create a MyMedia account</strong> link and enter your UTORid and password and create your MyMedia account. <br /></li>
+  <li>After creating your account, to back to https://mymedia.library.utoronto.ca and click on <strong>Login to MyMedia</strong> and log in with your UTORid.</li>
+</ol>
+
+<h2 id="login-to-mymedia">Login to MyMedia</h2>
+
+<ol>
+  <li>Go to <a href="https://mymedia.library.utoronto.ca">https://mymedia.library.utoronto.ca</a></li>
+  <li>Click on the <strong>Login to MyMedia</strong> and enter your UTORid and password</li>
+  <li>You will then see a list of your uploaded media files.</li>
+  <li>To play the video, click on the green Play link or embedded link or to do any changes, click on the yellow Manage button (more information below). To delete the video, click on the red Delete link.</li>
+</ol>
+
+<h2 id="managing-your-video">Managing your Video</h2>
+<ol>
+  <li>Under the yellow Manage link, you will be given a number of options for your video.</li>
+  <li>You can change your video’s Title</li>
+  <li>Input a Description and enter keywords</li>
+  <li>Choose your Access Options.     <strong>I.e.:</strong> Do you want this video restricted to be viewed by UofT only (this option requires a valid UTORid to sign in to view the video). <br /></li>
+  <li>Or, you can also opt to ** <em>not</em> ** restrict your video to UofT only however, if you choose this option the video <strong>MUST</strong> have closed captioning to align with current AODA laws.</li>
+  <li>Upload any captions files you have created.</li>
+</ol>
+
+<h2 id="uploading-video-to-mymedia">Uploading Video to MyMedia</h2>
+<ol>
+  <li>Go to MyMedia <a href="https://mymedia.library.utoronto.ca">https://mymedia.library.utoronto.ca</a> and login to MyMedia using your UTORid.</li>
+  <li>Once logged in you should see a green button on the upper right of the page that says <strong>Upload Media</strong> and clicking this will take you to the upload screen.</li>
+  <li>On the <strong>Upload your media page</strong> click <strong>Add Files</strong> and select the video from your computer <strong>or</strong> drag and drop the file you would like to upload and then click <strong><em>Start Upload</em></strong>.</li>
+  <li>Once the upload is complete the video will take some time to encode</li>
+  <li>Once it has finished encoding you will receive an email with a link in it you should click and follow to complete the process.</li>
+  <li>Edit the title and description and select the option U of T only and then click Save.</li>
+  <li>You should now see a <strong>Permanent Play Link</strong> available</li>
+  <li>Copy this Permanent Play Link and paste it into the text submission area of your Blackboard Assignment and then Submit.</li>
+</ol>
+
+<h2 id="media-production-support">Media Production Support</h2>
+
+<p>There are a number of in-house media production options available.</p>
+
+<h3 id="recording-and-editing-software">Recording and Editing Software</h3>
+
+<p><a href="https://articulate.com/">Articulate</a>,  <a href="https://www.techsmith.com/video-editor.html">Camtasia</a> and <a href="https://www.techsmith.com/techsmith-relay.html">TechSmith Relay</a>.</p>
+
+<p><strong>Articulate</strong> is used to create interactive learning modules. If you’re interested in creating an online learning modules, please contact Neal or Allison to discuss options.</p>
+
+<p><strong>Camtasia</strong> is a screen and webcam recording and editing software. It can be used to create videos which can be recorded in parts, edited and then easily uploaded to MyMedia for easy placement in your Blackboard course without taking up space in the course folder.</p>
+
+<p><strong>TechSmith Relay</strong> is an easy to use recording software for screen recording and webcam video. After recording your video, you can then ‘trim the edges’ (I.e. cut off the beginning and end) of the video only. This software then easily uploads your video to MyMedia for easy palcement in Blackboard.</p>
+
+<p><strong>Adobe Premiere</strong> is a professional video editing suite that can edit and export digital video and audio.</p>
+
+<h3 id="recording-hardware">Recording Hardware</h3>
+
+<p><strong>JVC HD Cameras</strong>: Two 1080p JVC Video Cameras</p>
+
+<p><strong>Wireless Lavalier Microphone</strong>: One wireless lavalier microphone for attaching to teh video camera or a computer</p>
+
+<p><strong>Microsoft Surface</strong>: One Microsoft Surface for hand annotated screen recording</p>
+
+<p>The Academic Technology team is also available for assistance and consultation in any of your video projects. Please contact us with any questions regarding videos and your best options for creating them.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 Lawrence S. Bloomberg Faculty of Nursing - University of Toronto. All rights reserved. <br />
+ Site last generated: Sep 19, 2017 <br />
+<p><img src="images/LSBFONBlueOnTransparent.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
