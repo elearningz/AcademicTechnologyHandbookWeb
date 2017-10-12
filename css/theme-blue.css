@@ -119,3 +119,11 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     border-color: #FFF;
 }
+
+.text-primary {
+  color: #294260;
+}
+
+h1.display-3 {
+  color: #294260;
+}

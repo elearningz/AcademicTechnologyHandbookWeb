@@ -12,7 +12,5 @@ topnav_dropdowns:
 
     - title: Documentation
       folderitems:
-        - title: Introductory Video
-          url: /mydoc_introduction.html
-        - title: The Handbook
+        - title: Instructor Handbook
           url: /introduction.html

@@ -127,11 +127,11 @@
 
 
 {
-"title": "Getting started with the Documentation Theme for Jekyll",
-"tags": "getting_started",
-"keywords": "sample homepage",
+"title": "",
+"tags": "",
+"keywords": "handbook",
 "url": "index.html",
-"summary": "These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll."
+"summary": ""
 }
 ,
 
@@ -774,6 +774,17 @@
 ,
 
 
+
+
+
+{
+"title": "Sample Announcements",
+"tags": "",
+"keywords": "course, announcements, templates",
+"url": "sample_announcements.html",
+"summary": "This page contains sample announcement templates you can copy and use in your course."
+}
+,
 
 
 

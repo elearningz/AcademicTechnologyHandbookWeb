@@ -114,3 +114,7 @@ entries:
     - title: Support Contacts
       url: /key_contacts.html
       output: web, pdf
+
+    - title: Sample Announcements
+      url: /sample_announcements.html
+      output: web, pdf
