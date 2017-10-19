@@ -11,6 +11,13 @@ topnav_dropdowns:
   folders:
 
     - title: Documentation
+
       folderitems:
         - title: Instructor Handbook
           url: /introduction.html
+
+        - title: Student Handbook
+          url: /#
+
+        - title: TA Handbook
+          url: /#

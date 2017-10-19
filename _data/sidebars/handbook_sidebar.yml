@@ -2,8 +2,8 @@
 
 
 entries:
-- title: The Handbook
-  product: The Handbook
+- title: Instructor Handbook
+  product: The Instructor Handbook
   version:
   folders:
 
@@ -22,6 +22,7 @@ entries:
 
   - title: Introduction
     output: web, pdf
+
     folderitems:
     - title: Welcome
       url: /introduction.html
@@ -99,6 +100,14 @@ entries:
       url: /mymedia.html
       output: web, pdf
 
+    - title: Surveys
+      url: /surveys.html
+      output: web, pdf
+
+    - title: Proctor U
+      url: /proctoru.html
+      output: web, pdf
+
   - title: Appendix
     output: web, pdf
 
@@ -109,6 +118,10 @@ entries:
 
     - title: Training Plan
       url: /training_plan.html
+      output: web, pdf
+
+    - title: NP Course Structure
+      url: /#
       output: web, pdf
 
     - title: Support Contacts
