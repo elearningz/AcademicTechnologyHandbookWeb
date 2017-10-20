@@ -136,6 +136,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/office365.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/peerscholar.html</loc>
   </url>
   
@@ -150,6 +156,12 @@
   
   
   
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/stdnt_introduction.html</loc>
+  </url>
   
   
   

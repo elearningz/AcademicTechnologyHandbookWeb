@@ -124,6 +124,10 @@ entries:
       url: /peerscholar.html
       output: web, pdf
 
+    - title: Office365
+      url: /office365.html
+      output: web, pdf
+
   - title: Appendix
     output: web, pdf
 
