@@ -192,6 +192,28 @@
 
 
 
+{
+"title": "NP Course Structure",
+"tags": "",
+"keywords": "course, np, instructional, support",
+"url": "np_course_design.html",
+"summary": "This page details the structure of the online Nurse Practitioner courses to provide some background rationale and methodology for using the templates that are copied into the course prior to every term."
+}
+,
+
+
+
+{
+"title": "peerScholar",
+"tags": "",
+"keywords": "assignments, peer-review, assessment, support",
+"url": "peerscholar.html",
+"summary": ""
+}
+,
+
+
+
 
 
 {
@@ -262,11 +284,44 @@
 
 
 {
+"title": "Top Hat (classroom response tool)",
+"tags": "",
+"keywords": "surveys, evaluations, classroom, response, support",
+"url": "tophat.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Training Plan",
 "tags": "",
 "keywords": "course, training",
 "url": "training_plan.html",
 "summary": "This page contains the typical training plan of a 1:1 or group session for using blackboard in your course."
+}
+,
+
+
+
+{
+"title": "Turnitin",
+"tags": "",
+"keywords": "evaluations, classroom, plagiarism, support",
+"url": "turnitin.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Voicethread",
+"tags": "",
+"keywords": "multimedia, discussions, support",
+"url": "voicethread.html",
+"summary": ""
 }
 ,
 

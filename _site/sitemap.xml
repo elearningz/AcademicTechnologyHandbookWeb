@@ -129,6 +129,18 @@
   
   
   
+  <url>
+    <loc>http://localhost:4000/np_course_design.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/peerscholar.html</loc>
+  </url>
+  
+  
+  
   
   
   <url>
@@ -184,7 +196,25 @@
   
   
   <url>
+    <loc>http://localhost:4000/tophat.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/training_plan.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/turnitin.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/voicethread.html</loc>
   </url>
   
   

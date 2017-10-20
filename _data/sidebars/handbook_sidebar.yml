@@ -3,7 +3,7 @@
 
 entries:
 - title: Instructor Handbook
-  product: The Instructor Handbook
+  product: Instructor Handbook
   version:
   folders:
 
@@ -108,10 +108,30 @@ entries:
       url: /proctoru.html
       output: web, pdf
 
+    - title: Top Hat
+      url: /tophat.html
+      output: web, pdf
+
+    - title: Turnnitin
+      url: /turnitin.html
+      output: web, pdf
+
+    - title: Voicethread
+      url: /voicethread.html
+      output: web, pdf
+
+    - title: peerScholar
+      url: /peerscholar.html
+      output: web, pdf
+
   - title: Appendix
     output: web, pdf
 
     folderitems:
+    - title: Course Checklist
+      url: /course_checklist.html
+      output: web, pdf
+
     - title: Guest Speaker Information
       url: /guest_speaker_info.html
       output: web, pdf
@@ -121,7 +141,7 @@ entries:
       output: web, pdf
 
     - title: NP Course Structure
-      url: /#
+      url: /np_course_design.html
       output: web, pdf
 
     - title: Support Contacts
