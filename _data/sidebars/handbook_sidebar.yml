@@ -155,3 +155,7 @@ entries:
     - title: Sample Announcements
       url: /sample_announcements.html
       output: web, pdf
+
+    - title: Test & Exam Setup
+      url: /test_setup_questionnaire.html
+      output: web, pdf

@@ -188,6 +188,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/test_setup_questionnaire.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/tests_import_export.html</loc>
   </url>
   
