@@ -112,7 +112,7 @@ entries:
       url: /tophat.html
       output: web, pdf
 
-    - title: Turnnitin
+    - title: Turnitin
       url: /turnitin.html
       output: web, pdf
 
