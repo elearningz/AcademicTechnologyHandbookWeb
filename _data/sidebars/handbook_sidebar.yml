@@ -159,3 +159,7 @@ entries:
     - title: Test & Exam Setup
       url: /test_setup_questionnaire.html
       output: web, pdf
+
+    - title: Student Video Assignments
+      url: /video_assignments.html
+      output: web, pdf

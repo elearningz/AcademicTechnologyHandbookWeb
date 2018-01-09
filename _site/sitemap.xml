@@ -232,6 +232,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/video_assignments.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/voicethread.html</loc>
   </url>
   
