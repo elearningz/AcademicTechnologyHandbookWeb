@@ -127,3 +127,7 @@ li.sidebarTitle {
 h1.display-3 {
   color: #294260;
 }
+
+.docimage {
+  border: 1px solid;
+}

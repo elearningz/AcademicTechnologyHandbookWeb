@@ -9,7 +9,7 @@ folder: the_handbook
 
 U of T has a streaming media service call MyMedia. U of T makes the MyMedia service available to all students, which allows for the uploading of videos and creating a link that can be shared. This means that the link can be submitted to your assignment dropbox text area or emailed.
 
-This article assumes you have already recorded your video and now just need to upload and submit it to your class. For tips on recording and preparing your video please see [PDF GUIDE TITLE](#).
+This article assumes you have already recorded your video and now just need to upload and submit it to your class. For tips on recording and preparing your video please see the [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf) .
 
 To generate a link you can use for an assignment submission please follow the steps outlined in this article.
 
@@ -35,7 +35,7 @@ When you are logged into MyMedia you will see an _Upload Media_ button at the to
 
 Click _Add Files_ and select your video from the computer. It will appear in the list and then the _Start Upload_ button will be available. Click _Start Upload_ to begin uploading the video.
 
-If you have a very large file it could take a long time to upload. If this is the case it may be best to compress your video. Please see the section in [PDF GUIDE TITLE](#) regardig compressing your video.
+If you have a very large file it could take a long time to upload. If this is the case it may be best to compress your video. Please see the section in [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf) regarding compressing your video.
 
 {% include image.html file="video_assignments/upload_complete.png" alt="MyMedia Upload Interface Status Complete" caption="The Upload Interface at mymedia.library.utoronto.ca with a File Fully Uploaded" %}
 
