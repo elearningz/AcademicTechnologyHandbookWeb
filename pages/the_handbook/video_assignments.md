@@ -9,7 +9,7 @@ folder: the_handbook
 
 U of T has a streaming media service call MyMedia. U of T makes the MyMedia service available to all students, which allows for the uploading of videos and creating a link that can be shared. This means that the link can be submitted to your assignment dropbox text area or emailed.
 
-This article assumes you have already recorded your video and now just need to upload and submit it to your class. For tips on recording and preparing your video please see the [MyMedia Help Page - https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) and the [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf).
+This article assumes you have already recorded your video and now just need to upload and submit it to your class. For tips on recording and preparing your video please see the [MyMedia Help Page](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) and the [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf).
 
 To generate a link you can use for an assignment submission please follow the steps outlined in this article.
 
@@ -23,11 +23,11 @@ Create a MyMedia account (if you have not created one already) by signing in wit
 
 If you already have a MyMedia account it will log you into the service, bypassing the need to enter Name and Email information. Once you are logged into the service you will be able to upload videos and manage existing videos in your account.
 
-As a student you are able to upload as many as 30 videos. If you reach your limit please delete any videos you no longer need.
+As a student you are able to upload as many as 40 videos. If you reach your limit please delete any videos you no longer need.
 
 ### Step 2: Uploading Your Video to MyMedia
 
-When you are logged into MyMedia you will see an _Upload Media_ button at the top-right of the page. Clicking this button will take you to a new screen that will enable you to select files for upload. It is recommended that you convert your files to .mp4 for upload. Please see the [MyMedia Help Page - https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) for details.
+When you are logged into MyMedia you will see an _Upload Media_ button at the top-right of the page. Clicking this button will take you to a new screen that will enable you to select files for upload. It is recommended that you convert your files to .mp4 for upload. Please see the [MyMedia Help Page](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) for details.
 
 {% include image.html file="video_assignments/upload_button.png" alt="MyMedia Upload Button" caption="The MyMedia Upload Button at mymedia.library.utoronto.ca" %}
 
@@ -35,7 +35,7 @@ When you are logged into MyMedia you will see an _Upload Media_ button at the to
 
 Click _Add Files_ and select your video from the computer. It will appear in the list and then the _Start Upload_ button will be available. Click _Start Upload_ to begin uploading the video.
 
-If you have a very large file it could take a long time to upload. If this is the case it may be best to compress your video. Please see the section in [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf) or the [MyMedia Help Page - https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) regarding compressing your video.
+If you have a very large file it could take a long time to upload. If this is the case it may be best to compress your video. Please see the section in [Video Guide - PDF](http://media.nursing.utoronto.ca/handbook/images/video_assignments/Video_Guide_Short.pdf) or the [MyMedia Help Page](https://mymedia.library.utoronto.ca/cgi-bin/WebObjects/MyMedia.woa/2/wa/help#uploading) regarding compressing your video.
 
 {% include image.html file="video_assignments/upload_complete.png" alt="MyMedia Upload Interface Status Complete" caption="The Upload Interface at mymedia.library.utoronto.ca with a File Fully Uploaded" %}
 
