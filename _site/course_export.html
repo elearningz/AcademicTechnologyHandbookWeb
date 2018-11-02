@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This page is a description of how to export or archive your course and the difference between each process.">
+<meta name="description" content="This page is a description of how to export your course as a backup.">
 <meta name="keywords" content=" course, archive, export">
-<title>Archive and Export a Course | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
+<title>Export a Course | Lawrence S. Bloomberg Faculty of Nursing - Academic Technology Handbook</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -153,7 +153,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Handbook Question feedback&body=I have some feedback about the Archive and Export a Course page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:it.nursing@utoronto.ca?subject=Academic Technology Handbook Question feedback&body=I have some feedback about the Export a Course page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -172,7 +172,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Archive and Export a Course">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Export a Course">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -255,7 +255,7 @@
           
           
           
-          <li class="active"><a href="course_export.html">Course Archive/Export</a></li>
+          <li class="active"><a href="course_export.html">Course Export</a></li>
           
           
           
@@ -484,7 +484,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Archive and Export a Course</h1>
+   <h1 class="post-title-main">Export a Course</h1>
 </div>
 
 
@@ -492,7 +492,7 @@
 <div class="post-content">
 
    
-    <div class="summary">This page is a description of how to export or archive your course and the difference between each process.</div>
+    <div class="summary">This page is a description of how to export your course as a backup.</div>
    
 
     
@@ -523,55 +523,39 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <p>To backup your course you can create a Course Archive or a Course Export that can then be loaded into another course or course sandbox to view it later.</p>
+  <p>To backup your course you can create a Course Export that can then be loaded into another course or course sandbox to view it later.</p>
 
-<p>Course Archives are a permanent record of a course at a particular point in time while Course Exports allow you to Export an entire course but also select which content you’d like to include.</p>
+<p><em><strong>It is your responsibility to backup your course at the end of semester</strong></em>. We recommend keeping a copy of the export on your computer as well as on a USB drive so it is redundantly stored in case of data loss. If you are collecting assignments and managing grades in Quercus you should also download the Grades and any Assignments you want a record of for your course.</p>
 
-<p>Another important difference between archives and exports is that exports do not bring across student grades. If you want a record of student grades you should download these separately from Grade Center (covered elsewhere in this handbook).</p>
+<h2 id="exporting-your-course">Exporting Your Course</h2>
 
-<p><em><strong>It is your responsibility to backup your course at the end of semester</strong></em>. We recommend keeping a copy of the backup on your computer as well as on a USB drive so it is redundantly stored in case of data loss.</p>
+<p>For more information about exporting your course please see <a href="https://community.canvaslms.com/docs/DOC-12785-415241323">How do I export a Canvas course?
+</a>, and refer to the steps outlined below.</p>
 
-<p>In most instances a course export and a Grade Center download will be sufficent for a backup. But there is no harm in creating both an Archive and an Export.</p>
-
-<h2 id="course-archives">Course Archives</h2>
-
-<p>For more information about creating course archives please visit the Portal Info article, <a href="http://portalinfo.utoronto.ca/content/archive-course">Archive a Course</a>, and refer to the steps outlined below.</p>
-
-<h3 id="create-and-download-an-archive-of-your-course">Create and Download an Archive of your Course</h3>
-<ol>
-  <li>Log into Blackboard and go to your courses Control Panel</li>
-  <li>Click on Packages and Utilities and select Export/Archive Course</li>
-  <li>Click on the Archive Course button that appears on the next page</li>
-  <li>Choose Include Grade Centre History if applicable</li>
-  <li>Ensure that Copy links and include copies of the files in the course default directory is chosen. This will copy course links and files from the current course folder into the destination course and Content folder.</li>
-  <li>Click Submit. You will see confirmation on the screen that the system has received the request.</li>
-  <li>When the archive is ready, the system will send you an email that the Archive package is ready to Download.</li>
-  <li>After receiving an email indicating that your archive package is ready, log back into Blackboard and go to your course.</li>
-  <li>Go to the <strong>Control Panel</strong> and click on <strong>Packages and Utilities</strong> and select <strong>Export/Archive Course</strong>.</li>
-  <li>Click on the link to the Zipped Archive that is now available to initiate your download.</li>
-</ol>
-
-<p><strong>Note:</strong> It may take several minutes to several hours following the receipt of the confirmation message for imported course package materials to appear in the new shell. Please be patient.</p>
-
-<h2 id="course-exports">Course Exports</h2>
-
-<p>For more information about creating course exports please visit the Portal Info article, <a href="http://portalinfo.utoronto.ca/content/export-course-material">Export Course Material</a>, and refer to the steps outlined below.</p>
-
-<h3 id="create-and-download-an-export-of-your-course">Create and Download an Export of your Course</h3>
+<h3 id="export-your-course-content">Export Your Course Content</h3>
 
 <ol>
-  <li>Go to the Control Panel from within your course page.</li>
-  <li>Click on Packages and Utilities, and then select Export/Archive Course.</li>
-  <li>On the next page, click the Export button.</li>
-  <li>Next to Course Files Default Directory, verify that Copy links and Include Copies of the Files in the Course Default Directory has been selected. This will copy course links and files from the current course folder into the destination course and Content folder.</li>
-  <li>Next to Files Outside of the Course Files Default Directory, verify that Copy links and Include Copies of the Files in the Course Default Directory has been selected. This will copy course links and files from the current course folder into the destination course and Content folder.</li>
-  <li>Tick the boxes next to the content to be exported.</li>
-  <li>Click Submit. A confirmation screen will appear once the system has received the export request.</li>
-  <li>Once the Export operation has completed a link to a .zip file containing exported course content will be available. You may need to click the Refresh button or click on Export/Archive Course under Packages and Utilities again to see the link to the .zip file. Click this link to download this file to your computer.</li>
+  <li>Go to the settings area of your course and then select Export Course Content from the righthand menu.</li>
+  <li>Select the course option and click Create Export.</li>
+  <li>You should receive an email when the export is complete.</li>
+  <li>At that point when you return to the Create Export page you can click on the New Export link to download.</li>
 </ol>
 
-<p><strong>Note</strong>: When the export has completed you will receive an email message. This email message will note that the export file is available for download.
-It may take some time following the receipt of this email for the export file to be created depending on the course file size.</p>
+<p><strong>Note</strong>: Downloads are only available for 30 days.</p>
+
+<h3 id="downloading-your-grades-and-assignments">Downloading Your Grades and Assignments</h3>
+
+<ol>
+  <li>Go to the Grades area of your course.</li>
+  <li>Click the Export Button and choose the CSV File option which will download a CSV version of your grades that can be opened as a spreadsheet.</li>
+  <li>To download specific assignment submissions go to the column for the assignment and hover over the cursor over the title.</li>
+  <li>Click the chevron in the right of the cell and then select the Download Submissions option.</li>
+  <li>Repeat this for all the assignments you want files for.</li>
+</ol>
+
+<p>For more information on exporting grades please see <a href="https://community.canvaslms.com/docs/DOC-12811-415255012">How do I export grades from the Gradebook?</a></p>
+
+<p>For more information on downloading assignments please see <a href="https://community.canvaslms.com/docs/DOC-12813">How do I download all student submissions for an assignment in the Gradebook?</a></p>
 
 
 
@@ -590,7 +574,7 @@ It may take some time following the receipt of this email for the export file to
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2018 Lawrence S. Bloomberg Faculty of Nursing - University of Toronto. All rights reserved. <br />
- Site last generated: Jan 17, 2018 <br />
+ Site last generated: Nov 2, 2018 <br />
 <p><img src="images/LSBFONBlueOnTransparent.png" alt="Company logo"/></p>
                 </div>
             </div>

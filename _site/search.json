@@ -37,11 +37,11 @@
 
 
 {
-"title": "Blackboard Collaborate Lifecycle and Back-up",
+"title": "BB Collaborate Lifecycle and Back-up",
 "tags": "",
 "keywords": "collaborate, webinar, archive",
 "url": "collaborate_lifecycle.html",
-"summary": "This page contains a breakdown of the key points in the lifecycle of a Blackboard Collaborate recording and how you can backup your recorded webinars."
+"summary": "This page contains a breakdown of the key points in the lifecycle of a BB Collaborate webinar recording and how you can backup your recorded webinars."
 }
 ,
 
@@ -81,11 +81,11 @@
 
 
 {
-"title": "Archive and Export a Course",
+"title": "Export a Course",
 "tags": "",
 "keywords": "course, archive, export",
 "url": "course_export.html",
-"summary": "This page is a description of how to export or archive your course and the difference between each process."
+"summary": "This page is a description of how to export your course as a backup."
 }
 ,
 
@@ -96,7 +96,7 @@
 "tags": "",
 "keywords": "course, archive",
 "url": "course_lifecycle.html",
-"summary": "This page contains a breakdown of the key points in the lifecycle of a course on the Blackboard portal and provides some suggested tasks to consider doing around each of these points"
+"summary": "This page contains a breakdown of the key points in the lifecycle of a course on Quercus and provides some suggested tasks to consider doing around each of these points"
 }
 ,
 

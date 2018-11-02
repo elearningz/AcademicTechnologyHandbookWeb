@@ -48,7 +48,7 @@ entries:
       url: /course_copy.html
       output: web, pdf
 
-    - title: Course Archive/Export
+    - title: Course Export
       url: /course_export.html
       output: web, pdf
 

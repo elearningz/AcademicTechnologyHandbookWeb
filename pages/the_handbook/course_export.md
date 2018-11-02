@@ -1,56 +1,42 @@
 ---
-title: Archive and Export a Course
+title: Export a Course
 keywords: course, archive, export
-summary: "This page is a description of how to export or archive your course and the difference between each process."
+summary: "This page is a description of how to export your course as a backup."
 sidebar: handbook_sidebar
 permalink: course_export.html
 folder: the_handbook
 ---
 
-To backup your course you can create a Course Archive or a Course Export that can then be loaded into another course or course sandbox to view it later.
+To backup your course you can create a Course Export that can then be loaded into another course or course sandbox to view it later.
 
-Course Archives are a permanent record of a course at a particular point in time while Course Exports allow you to Export an entire course but also select which content you'd like to include.
+*__It is your responsibility to backup your course at the end of semester__*. We recommend keeping a copy of the export on your computer as well as on a USB drive so it is redundantly stored in case of data loss. If you are collecting assignments and managing grades in Quercus you should also download the Grades and any Assignments you want a record of for your course.
 
-Another important difference between archives and exports is that exports do not bring across student grades. If you want a record of student grades you should download these separately from Grade Center (covered elsewhere in this handbook).
+## Exporting Your Course
 
-*__It is your responsibility to backup your course at the end of semester__*. We recommend keeping a copy of the backup on your computer as well as on a USB drive so it is redundantly stored in case of data loss.
+For more information about exporting your course please see [How do I export a Canvas course?
+](https://community.canvaslms.com/docs/DOC-12785-415241323), and refer to the steps outlined below.
 
-In most instances a course export and a Grade Center download will be sufficent for a backup. But there is no harm in creating both an Archive and an Export.
+### Export Your Course Content
 
-## Course Archives
+1. Go to the settings area of your course and then select Export Course Content from the righthand menu.
+2. Select the course option and click Create Export.
+3. You should receive an email when the export is complete.
+4. At that point when you return to the Create Export page you can click on the New Export link to download.
 
-For more information about creating course archives please visit the Portal Info article, [Archive a Course](http://portalinfo.utoronto.ca/content/archive-course), and refer to the steps outlined below.
+**Note**: Downloads are only available for 30 days.
 
-### Create and Download an Archive of your Course
-   1. Log into Blackboard and go to your courses Control Panel
-   2. Click on Packages and Utilities and select Export/Archive Course
-   3. Click on the Archive Course button that appears on the next page
-   4. Choose Include Grade Centre History if applicable
-   5. Ensure that Copy links and include copies of the files in the course default directory is chosen. This will copy course links and files from the current course folder into the destination course and Content folder.
-   6. Click Submit. You will see confirmation on the screen that the system has received the request.
-   7. When the archive is ready, the system will send you an email that the Archive package is ready to Download.
-   8. After receiving an email indicating that your archive package is ready, log back into Blackboard and go to your course.
-   9. Go to the **Control Panel** and click on **Packages and Utilities** and select **Export/Archive Course**.
-   10. Click on the link to the Zipped Archive that is now available to initiate your download.
 
-**Note:** It may take several minutes to several hours following the receipt of the confirmation message for imported course package materials to appear in the new shell. Please be patient.
+### Downloading Your Grades and Assignments
 
-## Course Exports
+1. Go to the Grades area of your course.
+2. Click the Export Button and choose the CSV File option which will download a CSV version of your grades that can be opened as a spreadsheet.
+3. To download specific assignment submissions go to the column for the assignment and hover over the cursor over the title.
+4. Click the chevron in the right of the cell and then select the Download Submissions option.
+5. Repeat this for all the assignments you want files for.
 
-For more information about creating course exports please visit the Portal Info article, [Export Course Material](http://portalinfo.utoronto.ca/content/export-course-material), and refer to the steps outlined below.
+For more information on exporting grades please see [How do I export grades from the Gradebook?](https://community.canvaslms.com/docs/DOC-12811-415255012)
 
-### Create and Download an Export of your Course
+For more information on downloading assignments please see [How do I download all student submissions for an assignment in the Gradebook?](https://community.canvaslms.com/docs/DOC-12813)
 
-1. Go to the Control Panel from within your course page.
-2. Click on Packages and Utilities, and then select Export/Archive Course.
-3. On the next page, click the Export button.
-4. Next to Course Files Default Directory, verify that Copy links and Include Copies of the Files in the Course Default Directory has been selected. This will copy course links and files from the current course folder into the destination course and Content folder.
-5. Next to Files Outside of the Course Files Default Directory, verify that Copy links and Include Copies of the Files in the Course Default Directory has been selected. This will copy course links and files from the current course folder into the destination course and Content folder.
-6. Tick the boxes next to the content to be exported.
-7. Click Submit. A confirmation screen will appear once the system has received the export request.
-8. Once the Export operation has completed a link to a .zip file containing exported course content will be available. You may need to click the Refresh button or click on Export/Archive Course under Packages and Utilities again to see the link to the .zip file. Click this link to download this file to your computer.
-
-**Note**: When the export has completed you will receive an email message. This email message will note that the export file is available for download.
-It may take some time following the receipt of this email for the export file to be created depending on the course file size.
 
 {% include links.html %}
