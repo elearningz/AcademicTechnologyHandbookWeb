@@ -1,5 +1,5 @@
 ---
-title: Portal Course Checklist
+title: Quercus Course Checklist
 keywords: course, checklist
 summary: "This is a Course Checklist for actions to consider during the setup and management of your course."
 sidebar: handbook_sidebar
@@ -7,7 +7,7 @@ permalink: course_checklist.html
 folder: the_handbook
 ---
 
-Please consult the following guide and checklist for managing your course on blackboard.
+Please consult the following guide and checklist for managing your course on Quercus.
 
 ## Before Opening Your Course to Students
 Consider:
@@ -20,14 +20,14 @@ Consider:
 	Have I deleted content from a course copy I no longer need such as old discussion board posts and announcements?  
 	Have I setup my course folders?  
 	Have I created my assignments?  
-	Have I setup my gradebook and hidden gradebook columns?  
+	Have I setup my gradebook and muted gradebook columns?  
 	Have I created all the course content I will need?  
 	Have I checked my links (to readings, videos, etc.) to make sure they work?  
-	Have I setup availability dates for content?  
+	Have I setup availability dates for my Modules?  
 	Do I have a MyMedia account?         
 	Have I made my course available to students?  
 	Have I posted expectations for participation and feedback?       
-	Have I setup or inquired about any additional tools I will be using (PeerScholar, Techsmith Relay, Blackboard Collaborate, etc.)                                                                                                                     
+	Have I setup or inquired about any additional tools I will be using (Turnitin, Techsmith Relay, BB Collaborate, etc.)                                                                                                                     
 
 ## After Opening Your Course to Students
 Consider:
@@ -36,7 +36,7 @@ Consider:
 	Have I posted an introductory podcast?  
 	Have I scheduled any webinars?  
 	Do I know how to release grades and provide feedback?  
-	Can I message students using the Send Email tool?  
+	Can I message students using the Inbox tool?  
 	Are any academic accommodations required?
 
 ## Throughout Your Course
@@ -53,7 +53,7 @@ Consider:
 Consider:
 
 	Have I submitted grades?  
-	Have I made an archive or an export of my course data?  
-	Have I downloaded and archived my webinar recordings?
+	Have I made an export of my course?  
+	Have I downloaded and saved my webinar recordings?
 
 {% include links.html %}
