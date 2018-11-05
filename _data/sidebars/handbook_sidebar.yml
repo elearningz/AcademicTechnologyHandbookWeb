@@ -68,7 +68,7 @@ entries:
       url: /tests_import_export.html
       output: web, pdf
 
-    - title: The Grade Center
+    - title: Grades
       url: /grade_center.html
       output: web, pdf
 
