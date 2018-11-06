@@ -1,20 +1,18 @@
 ---
 title: Wikis
-keywords: course, communication, wikis, wiki
-summary: "This page points to resources on using wikis in your course."
+keywords: course, communication, wikis, wiki, pages, wiki-page
+summary: "This page points to resources on using wiki pages in your course."
 sidebar: handbook_sidebar
 permalink: wikis.html
 folder: the_handbook
 ---
 
-Wikis allow course members to contribute and modify one or more pages of course-related materials and provide a means of sharing and collaboration. Users can create and edit pages and track changes and additions which allows for effective collaboration between multiple writers.
+Wiki pages allow course members to contribute and modify one or more pages of course-related materials and provide a means of sharing and collaboration. Users can edit pages which allows for effective collaboration between multiple writers.
 
-You can create one or more wikis for all course members to contribute to and wikis for specific groups to use to collaborate. All course members can use the wikis tool to record information and serve as a repository for course information and knowledge.
+In essence every page in your Quercus course can be created as a Wiki page. When you make a new page and you would like it to be a wiki page you can change the default setting for the page to make it editable by Teachers and Students rather than Teachers only. In this way students will be able to contribute to the page.
 
-**NOTE:** Wikis currently only support asynchronous editing. When a user is editing a page, others are prevented from editing the same page for 2 minutes. If multiple users need to edit a Wiki page at the same time, they may encounter issues.
+You can view the page history to see all the edits and additions made to the page.
 
-For more information, watch the video below:
+**Note**: Quercus pages currently only support asynchronous editing. If multiple users need to edit a Wiki page at the same time, they may encounter issues. For this reason we recommend writing or making changes in a word processor and then pasting onto the page so you don't lose data in the event something goes wrong.
 
-[How To Create and Manage Wikis](https://www.youtube.com/watch?v=-l6778cP0jM)
-
-Wikis are available under the Tools area of your course
+For further information about Pages please see the [Pages](https://community.canvaslms.com/docs/DOC-10460#jive_content_id_Pages) area in the Canvas Guides.

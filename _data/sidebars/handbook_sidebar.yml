@@ -72,15 +72,11 @@ entries:
       url: /grade_center.html
       output: web, pdf
 
-    - title: Discussion Boards
+    - title: Discussions
       url: /discussion_board.html
       output: web, pdf
 
-    - title: Blogs
-      url: /blogs.html
-      output: web, pdf
-
-    - title: Wikis
+    - title: Wiki Pages
       url: /wikis.html
       output: web, pdf
 

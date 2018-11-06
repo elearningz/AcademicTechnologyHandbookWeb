@@ -19,7 +19,7 @@
 "tags": "",
 "keywords": "course, TA, roles",
 "url": "add_ta.html",
-"summary": "This page explains blackboard roles and how to add teaching support staff like TAs to your course."
+"summary": "This page explains Quercus roles and how to add teaching support staff like TAs to your course."
 }
 ,
 
@@ -103,7 +103,7 @@
 
 
 {
-"title": "Discussion Boards",
+"title": "Discussions",
 "tags": "",
 "keywords": "course, discussions, discussion-board",
 "url": "discussion_board.html",
@@ -385,9 +385,9 @@
 {
 "title": "Wikis",
 "tags": "",
-"keywords": "course, communication, wikis, wiki",
+"keywords": "course, communication, wikis, wiki, pages, wiki-page",
 "url": "wikis.html",
-"summary": "This page points to resources on using wikis in your course."
+"summary": "This page points to resources on using wiki pages in your course."
 }
 ,
 

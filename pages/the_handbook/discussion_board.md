@@ -1,5 +1,5 @@
 ---
-title: Discussion Boards
+title: Discussions
 keywords: course, discussions, discussion-board
 summary: "This page points to resources on using the discussion boards in your course."
 sidebar: handbook_sidebar
@@ -7,14 +7,14 @@ permalink: discussion_board.html
 folder: the_handbook
 ---
 
-Your course on blackboard has a space where you can host online discussions. The discussions are asynchronous meaning that they can be effective places to have discussions over a period of time. They can also be maintained as an archive for review throughout the course.
+Your course on Quercus has a space where you can host online discussions. The discussions are asynchronous meaning that they can be effective places to have discussions over a period of time. They can be maintained as an archive for review throughout the course. Much like modules they can also be set to become available based on time and date parameters.
 
 ## Discussion Board Basics
 
-Consists of FORUMS and THREADS
-A forum is an area for discussion about a topic, and thread discussions are that forum.
-(i.e., A forum could be Week 1 and on that forum will be threads discussing topics from that week)
+The Discussions can be created and found in the Discussions area of your course.
 
-## Tutorial on Portal Info Site
+They are structured as Topics (created at the top level) and replies (which happen inside the topics).
 
- Please go to this article here for more details: [http://www.portalinfo.utoronto.ca/content/discussion-board](http://www.portalinfo.utoronto.ca/content/discussion-board)
+Discussions are searchable and can be ungraded or graded depending how you want to assess the activity. 
+
+To read more about the Discussions area of the course please see the [Discussions](https://community.canvaslms.com/docs/DOC-10460#jive_content_id_Discussions) area in the Canvas Guide.
