@@ -15,8 +15,8 @@ In order to access this tool you will need to consult with the Academic Technolo
 
 Please see the videos below for more information:
 
-[Voicethread Demo I video (logging in & replying to a thread)]( https://play.library.utoronto.ca/IWuCYjVwUBhy)
+[Voicethread Demo I video (Accessing Voicethread)](Permanent Linkhttps://play.library.utoronto.ca/ePA5Hs3FpaRN)
 
-[Voicethread Demo II video (creating & sharing a Voicethread)]( https://play.library.utoronto.ca/7acz1yvywqPU)
+[Voicethread Demo II video (Viewing and Commenting on Presentations)](https://play.library.utoronto.ca/ty_N_ldU6Qu5)
 
-[Voicethread Demo III (PowerPoint Voiceover & Sharing with Group)]( https://play.library.utoronto.ca/HaZbixS15E9o)
+[Voicethread Demo III (Creating and Sharing a Presentation)](https://play.library.utoronto.ca/QN3XhRKqqWkk)

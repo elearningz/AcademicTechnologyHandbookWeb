@@ -13,14 +13,14 @@ Faculty have unlimited storage space on MyMedia so it is a great place to store 
 
 There are two ways you can get your multimedia content up on MyMedia:
 
-1. The video or audio can be recorded and edited on any device using any software and then uploaded through the mymedia.utoronto.ca site.
+1. The video or audio can be recorded and edited on any device using any software and then uploaded through the [https://mymedia.library.utoronto.ca](https://mymedia.library.utoronto.ca) site.
 2. You can use TechSmith Relay or Camtasia to record and upload files to your MyMedia from directly within the software.
 
 ## Create a MyMedia account
    1. This requires a valid UTORid.<br>
-   2. Go to [https://mymedia.library.utoronto.ca](https://mymedia.library.utoronto.ca)<br>
-   3. Click on the **Create a MyMedia account** link and enter your UTORid and password and create your MyMedia account. <br>
-   4. After creating your account, to back to https://mymedia.library.utoronto.ca and click on **Login to MyMedia** and log in with your UTORid.
+   2. Go to [https://mymedia.library.utoronto.ca](https://mymedia.library.utoronto.ca)
+   3. Click on the **Create a MyMedia account** link and enter your UTORid and password and create your MyMedia account.
+   4. After creating your account go back to [https://mymedia.library.utoronto.ca](https://mymedia.library.utoronto.ca) and click on **Login to MyMedia** and log in with your UTORid.
 
 ## Login to MyMedia
 
@@ -33,8 +33,8 @@ There are two ways you can get your multimedia content up on MyMedia:
    1. Under the yellow Manage link, you will be given a number of options for your video.
    2. You can change your video’s Title
    3. Input a Description and enter keywords
-   4. Choose your Access Options. &nbsp;&nbsp;&nbsp; **I.e.:** Do you want this video restricted to be viewed by UofT only (this option requires a valid UTORid to sign in to view the video). <br>
-   5. Or, you can also opt to ** _not_ ** restrict your video to UofT only however, if you choose this option the video **MUST** have closed captioning to align with current AODA laws.
+   4. Choose your Access Options. Do you want this video restricted to be viewed by UofT only (this option requires a valid UTORid to sign in to view the video)
+   5. Or, you can also opt to ** _not_ ** restrict your video to UofT only however, if you choose this option the video **must** have closed captioning to align with current AODA policy.
    6. Upload any captions files you have created.
 
 

@@ -17,7 +17,7 @@ Documentation and support are provided by the Academic Technology Team and will 
 
 ## Signing up and Testing your Computer
 
-When students are told it is available (by the Academic Technology team), they must register on [Proctor U Site- proctoru.com/portal.utoronto-nursing](http://proctoru.com/portal/utoronto-nursing) and then book their exam time on the appropriate day and time.
+When students are told it is available (by the Academic Technology team), they must register on the Proctor U Site - [proctoru.com/utoronto-nursing](http://proctoru.com/portal/utoronto-nursing) and then book their exam time on the appropriate day and time.
 
 On the day of the exam, they log in through the same site and write the exam.
 
