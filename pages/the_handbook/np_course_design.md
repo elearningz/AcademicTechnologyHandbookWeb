@@ -11,7 +11,7 @@ This page describes the process and structure for some of the online Nurse Pract
 
 ## Template Copy and Course Sandboxes
 
-Prior to the term instructors are typically given access to or request access to a shared course sandbox from which everyone can contribute to organizing and posting new material for the upcoming term to create a "course template" of sorts. Because these are shared sandboxes what happens is that a baseline is created so each section can begin with an equivalent setup to better support the online students giving them a consistent experience across sections and courses.
+Prior to the term instructors are typically given access to or request access to a shared course sandbox from which everyone can contribute to organizing and posting new material for the upcoming term to create a "course template" of sorts. Because these are shared sandboxes what happens is that a baseline is created so each section can begin with an equivalent setup to better support the online students by giving them a consistent experience across sections and courses.
 
 When setup of the sandbox course is completed a request is made to the Academic Technology Team to copy the sandbox course into each of the current "live" course sections.
 
@@ -23,7 +23,7 @@ After the sandbox is copied across on a request basis we can add each instructor
 
 ## Course Structure
 
-The online NP courses typically follow a structure that works like this with the Weekly Modules appearing after Course Information following teh same structure until the end of the course:
+The online NP courses typically follow a structure that works like this with the Weekly Modules appearing after Course Information following the same structure until the end of the course:
 
 **COURSE**
 
@@ -58,7 +58,7 @@ The online NP courses typically follow a structure that works like this with the
 - ...
 - and so on
 
-*Scholarly Posts Pages are editable by students and instructors and are where students complete the weekly scholarly post requirement as laid out in teh Required Learning Activities page*
+*Scholarly Posts Pages are editable by students and instructors and are where students complete the weekly scholarly post requirement as laid out in the Required Learning Activities page*
 
 __
 
